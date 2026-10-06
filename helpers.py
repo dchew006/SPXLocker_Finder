@@ -2,9 +2,6 @@ import requests
 from datetime import datetime
 import math
 
-
-onemap_api = "eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoyNjM2OSwiZm9yZXZlciI6ZmFsc2UsImlzcyI6Ik9uZU1hcCIsImlhdCI6MTc5MTE4NDk2MSwibmJmIjoxNzkxMTg0OTYxLCJleHAiOjE3OTE0NDQxNjEsImp0aSI6IjJhYmRlMDZlLTlmZjMtNDdjMy1iYzQ0LWRhYTEzZWVkYjFhZSJ9.11E9buQWz6DnyPlKh39EAB6JILfLN9miVbY2vVLNrEF4Zbq4L18aKcI9zF0nS51EYi79fJxdvPHlGuNCVwbBmaEulooWvqRbixuVU8xJecWQwCrYzuEbXNne0np-kNKEw_UPs5EYV1Z-fwUJAgCEjs_mhe0cnTQwpjtzWbBpcMh-oDJCL1EdAow9SgZncOaJT9W426Ovr47LhuwjtSilRmxR9IMk32qcZMWeYxjPqU0x1ilYIIv_StdE38lk3hL6Qqo6t7MFzcq4pkYrw6AJ0PNi3mdkuY0II47K9UTLFLxKbZvE9zIa1D-2du50CcFPHC0_LMvq1b71jOihrKFChw"
-
 def find_lockers(lat, long, radius=500000):
     
     url = "https://spx.sg/api/service-point/point/around/list"
