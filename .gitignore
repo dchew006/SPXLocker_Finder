@@ -1,0 +1,16 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Test files that may contain secrets
+initial.ipynb

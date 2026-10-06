@@ -1,0 +1,26 @@
+[project]
+name = "spxlock-venv"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "dcheww006", email = "danielchew66@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "folium>=0.20.0",
+    "ipykernel>=7.3.0",
+    "pandas>=2.3.3",
+    "pillow>=12.3.0",
+    "polyline>=2.0.4",
+    "requests>=2.34.2",
+    "streamlit>=1.65.0",
+    "streamlit-folium>=0.26.2",
+]
+
+[project.scripts]
+spxlock-venv = "spxlock_venv:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
